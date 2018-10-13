@@ -26,7 +26,11 @@ class Calc {
 				break;
 			case 'div':
 				$result = $this->num1 / $this->num2;
-				break;			
+				break;	
+
+			case 'rest':
+				$result = $this->num1 % $this->num2;
+				break;		
 			
 			default:
 				$result = "Error"; 
